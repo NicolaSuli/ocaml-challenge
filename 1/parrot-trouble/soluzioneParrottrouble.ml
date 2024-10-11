@@ -1,0 +1,1 @@
+let parrot_trouble (x : bool) (y : int) : bool option = if y < 0 || y > 23 then None else if x = true && (y < 7 || y > 20) then Some false else Some true;;
