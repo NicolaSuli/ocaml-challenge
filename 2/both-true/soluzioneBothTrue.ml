@@ -1,0 +1,1 @@
+let both_true f g = fun x -> f x && g x
