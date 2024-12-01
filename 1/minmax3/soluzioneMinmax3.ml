@@ -1,0 +1,1 @@
+let rec minmax3 a b c = (max a (max b c) , min a (min b c))
