@@ -1,0 +1,1 @@
+let dice x = if Random.int 100 +1 >= x then 6 else Random.int 5+1
